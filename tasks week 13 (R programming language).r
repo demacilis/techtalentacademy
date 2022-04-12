@@ -38,11 +38,17 @@ print(emp.data)
 library(ggplot2)
 
 
-graph.data <- data.frame(
-  x = c(1:20), 
-  y = x^2,
-)
+x <- c(1:20)
 
+print(x)
+
+y <- x^2
+
+print(y)
+
+
+
+qplot(x, y)
 
 
 # 4. Create a simple bar plot of five subjects
